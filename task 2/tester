@@ -1,0 +1,15 @@
+#!/bin/bash
+
+k=0
+for a in "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"
+do 
+	
+	./MyProg < $a"_test_in.txt" > $a"_test_out.txt"
+if diff $a"_test_out.txt" $a"_test_res.txt" >/dev/null; then
+	k=$[k+1]
+fi
+
+done
+
+echo $k"/10 tests passed."
+
