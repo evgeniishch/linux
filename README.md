@@ -14,5 +14,5 @@
   
 Либо соберите проект вручную используя команду: 
 ```bash
-20	> g++ main.cpp readline.cpp kolvo.cpp -o prog
-20  > ./prog
+ > g++ main.cpp readline.cpp kolvo.cpp -o prog
+ > ./prog
