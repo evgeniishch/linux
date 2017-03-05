@@ -7,14 +7,16 @@
 //
 
 #include <iostream>
-#include "main.h"
+#include "functions.h"
+
 
 using namespace std;
 
 int main()
 {
-    cout<<"Check with: a roza upala na lapu azora"<<std::endl;
-    char s[100];bool flag = 1;
+    cout<<"Check with: a roza upala na lapu azora"<<endl;
+    char s[100];
+    bool flag = 1;
     readline(s);
     cout<<kolvo(s)<<" symbols"<<endl;
     

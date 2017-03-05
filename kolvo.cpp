@@ -5,6 +5,7 @@
 //  Created by user on 02.03.17.
 //  Copyright © 2017 WOLFTRAX INC. All rights reserved.
 //
+#include "functions.h"
 
 int kolvo (char s[])
 {

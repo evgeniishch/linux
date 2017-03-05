@@ -7,6 +7,7 @@
 //
 
 #include "iostream"
+#include "functions.h"
 
 using namespace std;
 
@@ -14,7 +15,7 @@ int readline(char s[])
 {
     int j=0;
     char l;
-    do {std::cin.get(l);
+    do {cin.get(l);
         if (l!=' '){
             s[j]=l;
             j++;}} while (l!='\n');
